@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.flexible-container{
+    display:flex;
+}
+.navbar{
+    justify-content: center;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fff;
+  }
+  
+  .header ul li {
+    float: left;
+  }
+  
+  .header ul li a {
+    display: block;
+    color: rgb(62, 29, 207);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  
+  .active {
+    background-color: #04AA6D;
+  }
