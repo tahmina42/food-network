@@ -37,6 +37,9 @@ body{
 /*header style end*/
 
 /*hero-section style start*/
+.hero-section {
+    margin-bottom: 100px;
+}
 .hero-section .column-half .hero-image{
     max-width: 90%;
     padding-top: 20px;
@@ -66,5 +69,25 @@ a.link-btn {
 , #a5d4ee, #0a9af8);
     margin-top: 20px;
     border-radius: 50px;
+    box-shadow: 3px 3px 20px #8080809c;
 }
 /*hero-section style end*/
+
+/*about-section style start*/
+#about{
+    background-image: url(../images/about-bg.jpg);
+    background-image: url(../images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+    padding: 80px 0px;
+}
+.about-content.column-half h1 {
+    font-size: 35px;
+    color: #607d8b;
+}
+.about-content.column-half p {
+    text-align: justify;
+    padding-right: 80px;
+}
+/*about-section style end*/
