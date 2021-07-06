@@ -86,6 +86,7 @@ a.link-btn {
 .about-content.column-half h1 {
     font-size: 35px;
     color: #607d8b;
+    text-transform: capitalize;
 }
 .about-content.column-half p {
     text-align: justify;
@@ -99,6 +100,7 @@ h1.blog-section-title {
     /* font-size: 40px; */
     font-size: 35px;
     color: #607d8b;
+    text-transform: capitalize;
 }
 p.blog-section-sub-title {
     text-align: center;
@@ -122,6 +124,7 @@ p.blog-section-sub-title {
 }
 .blog-card h1{
     font-weight: 900;
+    text-transform: capitalize;
 }
 .blog-card p{
     text-align: justify;
@@ -141,6 +144,7 @@ p.blog-section-sub-title {
 .count h1 {
     font-size: 30px;
     font-weight: 900;
+    text-transform: capitalize;
 }
 /*count-section style end*/
 
