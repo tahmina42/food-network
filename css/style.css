@@ -17,31 +17,28 @@ body{
     margin-left: 30px;
 }
 /*header style start*/
-.navbar{
-    justify-content: center;
-}
 .header ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px 0px;
     overflow: hidden;
-    background-color:#fff;
-  }
-  
-  .header ul li {
+    background-color: #fff;
+    box-shadow: 2px 2px 15px #80808040;
+}
+ 
+.header ul li {
     float: left;
   }
   
-  .header ul li a {
+.header ul li a {
     display: block;
-    color: rgb(62, 29, 207);
+    color: #0ea7fa;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 24px;
+    font-size: 20px;
     text-decoration: none;
-  }
-  .active {
-    background-color: #04AA6D;
-  }
+}
+
 /*header style end*/
 
 /*hero-section style start*/
@@ -194,4 +191,13 @@ input.submit-btn {
     border-radius: 50px;
     box-shadow: 3px 3px 20px #8080809c;
     margin-top: 10px;
+}
+/*footer section */
+footer.footer {
+    text-align: center;
+    background-color: #566369;
+    padding: 40px 0px;
+}
+footer.footer p {
+    color: #fff;
 }
